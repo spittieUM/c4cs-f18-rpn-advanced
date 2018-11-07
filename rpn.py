@@ -12,6 +12,11 @@ op = {
 }
 
 
+def printMsg():
+    print ("^ Your result")
+    print ("Thank you for calculating")
+
+
 def calculate(arg):
 
     stack = arg.split()
